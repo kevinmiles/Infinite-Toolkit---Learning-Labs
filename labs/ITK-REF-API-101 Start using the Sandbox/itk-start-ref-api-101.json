@@ -1,0 +1,46 @@
+{
+    "labId": "itk-start-ref-api-101",
+    "title": "Start using the Infinite Toolkit Sandbox",
+    "slug": "The objective of this labs is to allow an ITK beginner to perform his first request to the Infinite Toolkit sandbox using POSTMAN application.",
+    "time": "30",
+    "byod": true,
+    "tags": [{
+        "title": "ITK"
+    }, {
+        "title": "Infinite Toolkit"
+    }, {
+        "title": "beginner"
+    }, {
+        "title": "sandbox"
+    }, {
+        "title": "Postman"
+    }],
+    "files": [{
+			"title": "1.md"
+    }, {
+			"title": "2.md"
+    }, {
+			"title": "3.md"
+    }, {
+			"title": "4.md"
+    }, {
+			"title": "5.md"
+    }],
+    "related": [{
+        "labId": "itk-play-video-102",
+        "title": "How to playback video with ITK sandbox"
+    },{
+        "labId": "itk-book-event-103",
+        "title": "How to book an event and playback a record with ITK sandbox"
+    }],
+    "authors": [{
+        "name": "Cedric Souchon",
+        "email": "csouchon@cisco.com"
+    },
+	{
+        "name": "Eric Menu",
+        "email": "emenu@cisco.com"
+    }
+	],
+    "active": true
+}
