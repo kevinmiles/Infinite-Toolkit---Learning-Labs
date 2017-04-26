@@ -1,8 +1,8 @@
 {
-    "labId": "itk-video-playback-102",
+    "labId": "itk-how-to-play-video-102",
     "title": "Video content playback with Infinite Toolkit Sandbox",
     "slug": "The objective of this labs is to allow an ITK beginner to perform his first video content playback using Channel List sample application.",
-    "time": "30",
+    "time": "45",
     "byod": true,
     "tags": [{
         "title": "ITK"
