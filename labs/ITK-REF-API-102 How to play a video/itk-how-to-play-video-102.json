@@ -1,7 +1,7 @@
 {
-    "labId": "itk-start-ref-api-101",
-    "title": "Start using the Infinite Toolkit Sandbox",
-    "slug": "The objective of this labs is to allow an ITK beginner to perform his first request to the Infinite Toolkit sandbox using POSTMAN application.",
+    "labId": "itk-video-playback-102",
+    "title": "Video content playback with Infinite Toolkit Sandbox",
+    "slug": "The objective of this labs is to allow an ITK beginner to perform his first video content playback using Channel List sample application.",
     "time": "30",
     "byod": true,
     "tags": [{
@@ -27,13 +27,17 @@
 			"title": "4.md"
     }, {
 			"title": "5.md"
+    }, {
+			"title": "6.md"
+    }, {
+			"title": "7.md"
     }],
     "related": [{
         "labId": "itk-start-ref-api-101",
 		"title": "Start using the Infinite Toolkit Sandbox"
     },{
         "labId": "itk-book-event-103",
-        "title": "How to book an event and playback a record with ITK sandbox"
+        "title": "How to book an event and playback a record"
     }],
     "authors": [{
         "name": "Cedric Souchon",
