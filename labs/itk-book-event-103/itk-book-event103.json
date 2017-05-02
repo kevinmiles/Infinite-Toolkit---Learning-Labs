@@ -1,15 +1,16 @@
 {
-    "labId": "itk-how-to-play-video-102",
-    "title": "Video content playback with Infinite Toolkit Sandbox",
-    "slug": "The objective of this labs is to allow an ITK beginner to perform his first video content playback using Channel List sample applicationwriten in HTML5 / Javascript.",
-    "time": "45",
+    "labId": "itk-book-event-103",
+    "title": "How to book and event and manage records",
+    "slug": "The objective of this labs is to allow an ITK beginner to an event and playback a record with EPG application writen in Angular JS",
+    "time": "60",
     "byod": true,
     "tags": [
 	{"title": "ITK"},
 	{"title": "Infinite Toolkit"}, 
-	{"title": "beginner"}, 
 	{"title": "sandbox"}, 
-	{"title": "video"}, 
+	{"title": "Angular"}, 
+	{"title": "booking"}, 
+	{"title": "record"}, 
 	{"title": "Postman"}
 	],
     "files": [
@@ -26,8 +27,8 @@
         "labId": "itk-start-ref-api-101",
 		"title": "Start using the Infinite Toolkit Sandbox"
     },{
-        "labId": "itk-book-event-103",
-        "title": "How to book an event and playback a record"
+        "labId": "itk-play-video-102",
+        "title": "How to play video content with REF-API"
     }],
     "authors": [{
         "name": "Cedric Souchon",

@@ -2,7 +2,7 @@
     "labId": "itk-start-ref-api-101",
     "title": "Start using the Infinite Toolkit Sandbox",
     "slug": "The objective of this labs is to allow an ITK beginner to perform his first request to the Infinite Toolkit sandbox using POSTMAN application.",
-    "time": "30",
+    "time": "45",
     "byod": true,
     "tags": [{
         "title": "ITK"
