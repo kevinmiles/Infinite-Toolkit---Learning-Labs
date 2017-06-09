@@ -24,10 +24,13 @@
     ],
     "related": [{
         "labId": "itk-start-ref-api-101",
-		"title": "Start using the Infinite Toolkit Sandbox"
+		"title": "Start using the Infinite Toolkit sandbox"
     },{
         "labId": "itk-book-event-103",
         "title": "How to book an event and playback a record"
+    },{
+        "labId": "itk-ctap-local-104",
+        "title": "Add your own API to existing sandbox"		
     }],
     "authors": [{
         "name": "Cedric Souchon",

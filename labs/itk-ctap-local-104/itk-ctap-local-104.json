@@ -1,37 +1,32 @@
 {
-    "labId": "itk-book-event-103",
-    "title": "How to book and event and manage records",
-    "slug": "The objective of this labs is to allow an ITK beginner to an event and playback a record with EPG application writen in Angular JS",
-    "time": "60",
+    "labId": "itk-ctap-local-104",
+    "title": "How to add your own API to the existing sandbox",
+    "slug": "The objective of this labs is to allow an ITK beginner to add its own API to the existing REF-API. It can be done by using a local server redirecting queries to the reference sandbox or to the local server.",
+    "time": "45",
     "byod": true,
     "tags": [
 	{"title": "ITK"},
 	{"title": "Infinite Toolkit"}, 
 	{"title": "sandbox"}, 
-	{"title": "Angular"}, 
-	{"title": "booking"}, 
-	{"title": "record"}, 
-	{"title": "Postman"}
+	{"title": "CTAP"}, 
+	{"title": "Express"}
 	],
     "files": [
 	{"title": "1.md"},
 	{"title": "2.md"},
 	{"title": "3.md"},
 	{"title": "4.md"},
-	{"title": "5.md"},
-	{"title": "6.md"},
-	{"title": "7.md"},
-	{"title": "8.md"}
+	{"title": "5.md"}
     ],
     "related": [{
         "labId": "itk-start-ref-api-101",
 		"title": "Start using the Infinite Toolkit sandbox"
     },{
         "labId": "itk-play-video-102",
-        "title": "How to play video content with REF-API"
+        "title": "How to play video content with ITK sandbox"
     },{
-        "labId": "itk-ctap-local-104",
-        "title": "Add your own API to existing sandbox"
+        "labId": "itk-book-event-103",
+		"title": "Book an event and manage records with ITK sandbox"
     }],
     "authors": [{
         "name": "Cedric Souchon",

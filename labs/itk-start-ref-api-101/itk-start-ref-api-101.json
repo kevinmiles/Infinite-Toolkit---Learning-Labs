@@ -28,10 +28,13 @@
     }],
     "related": [{
         "labId": "itk-how-to-play-video-102",
-        "title": "How to playback video with ITK sandbox"
+        "title": "How to playback video content with ITK sandbox"
     },{
         "labId": "itk-book-event-103",
-        "title": "How to book an event and playback a record with ITK sandbox"
+        "title": "How to book an event and playback a record"
+    },{
+        "labId": "itk-ctap-local-104",
+        "title": "Add your own API to existing sandbox"
     }],
     "authors": [{
         "name": "Cedric Souchon",
