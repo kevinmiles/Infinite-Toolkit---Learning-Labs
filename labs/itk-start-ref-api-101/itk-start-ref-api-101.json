@@ -35,6 +35,9 @@
     },{
         "labId": "itk-ctap-local-104",
         "title": "Add your own API to existing sandbox"
+	},{
+        "labId": "itk-extended-epg-105",
+        "title": "Get extended metadata for VOD assets with public API"
     }],
     "authors": [{
         "name": "Cedric Souchon",

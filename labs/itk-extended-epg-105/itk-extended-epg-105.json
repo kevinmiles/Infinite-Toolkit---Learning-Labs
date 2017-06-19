@@ -1,0 +1,44 @@
+{
+    "labId": "itk-extended-epg-105",
+    "title": "Get extended metadata for VOD assets with public API",
+    "slug": "The objective of this lab is to allow an ITK beginner to use public API to enhance EPG application with extended metadata",
+    "time": "60",
+    "byod": true,
+    "tags": [
+	{"title": "ITK"},
+	{"title": "Infinite Toolkit"}, 
+	{"title": "sandbox"}, 
+	{"title": "Angular"}, 
+	{"title": "Postman"}
+	],
+    "files": [
+	{"title": "1.md"},
+	{"title": "2.md"},
+	{"title": "3.md"},
+	{"title": "4.md"},
+	{"title": "5.md"}
+    ],
+    "related": [{
+        "labId": "itk-start-ref-api-101",
+		"title": "Start using the Infinite Toolkit sandbox"
+    },{
+        "labId": "itk-play-video-102",
+        "title": "How to play video content with REF-API"
+    },{
+        "labId": "itk-book-event-103",
+		"title": "Book an event and manage records with ITK sandbox"
+    },{
+        "labId": "itk-ctap-local-104",
+        "title": "Add your own API to existing sandbox"
+    }],
+    "authors": [{
+        "name": "Cedric Souchon",
+        "email": "csouchon@cisco.com"
+    },
+	{
+        "name": "Eric Menu",
+        "email": "emenu@cisco.com"
+    }
+	],
+    "active": true
+}

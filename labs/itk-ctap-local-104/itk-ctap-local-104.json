@@ -27,7 +27,10 @@
     },{
         "labId": "itk-book-event-103",
 		"title": "Book an event and manage records with ITK sandbox"
-    }],
+	},{
+        "labId": "itk-extended-epg-105",
+        "title": "Get extended metadata for VOD assets with public API"
+	}],
     "authors": [{
         "name": "Cedric Souchon",
         "email": "csouchon@cisco.com"
