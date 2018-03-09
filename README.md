@@ -14,7 +14,6 @@ The goal of these learning labs is to ensure a 'hands-on' learning approach rath
 
 In this repository you find various basic examples, samples apps and explanations to start using the REST API in order to develop your own cloud client using digital TV services. Once you're connected to the Cisco sandbox, the client application has access to Live channel list, vod catalogue, booking and recording features.
 
-
 ## Contributing
 
 Note that contributions to these learning modules are for public consumption, so you must ensure you have the rights to provide any contributed content.
