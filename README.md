@@ -1,50 +1,57 @@
-## Cisco DevNet Learning Labs: Infite Toolkit
+# DevNet Writing Guidelines (Public)
 
-The Infinite Toolkit (ITK) sandbox is a cloud infrastructure allowing a client application to access consistent information about TV channels, Video On Demand (VOD) assets and user settings.
+Welcome to the DevNet Writing Guidelines. This repo contains DevNet's guidelines on creating learning labs, code samples, slides and setting up sandboxes for labs. 
 
-Labs are written to be displayed within the [Cisco DevNet Learning Labs system](https://learninglabs.cisco.com).
+The topics below are some of the topics of most interest to newbies.  For more the complete set of writing guidelines see this repo's [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki) page.
 
-Contributions are welcome, and we are glad to review changes through pull requests. See [contributing.md](contributing.md) for details.
+<b>On this page</b><br>
 
-Once approved, create a release that we use to publish in our Learning Labs system. 
+> [Learning Labs](#learning-labs)<br>
+    [How do I author a learning lab?](#learning-labs)<br>
+>   [Templates](#templates)<br>
+> [Code Conventions](#code-conventions)<br>
+> [Author Scripts](##author-scripts)<br>
+> [Recommended Tools](##recommended-tools)<br>
 
-The goal of these learning labs is to ensure a 'hands-on' learning approach rather than just theory or instructions.
+## Learning Labs
 
-## About these Learning Labs
+The source markdown for all of DevNet's learning labs are stored in the repos of the [CiscoDevNet](https://github.com/CiscoDevNet) organization. 
 
-In this repository you find various basic examples, samples apps and explanations to start using the REST API in order to develop your own cloud client using digital TV services. Once you're connected to the Cisco sandbox, the client application has access to Live channel list, vod catalogue, booking and recording features.
+If you want to create and publish a lab on the DevNet site, you must commit the lab and its associated files to a repo within the [CiscoDevNet](https://github.com/CiscoDevNet) organization.  The lab's markdown, images, JSON metadata, etc must exist in a certain directory structure.  The next section explains how to do that. 
+
+### How do I author a learning lab?
+
+See the wiki page: [How To Create A New Lab](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/How-To-Create-A-New-Lab)
+
+### Templates
+
+There are two kinds of templates: one for labs and one for sample code. 
+
+#### Lab template
+
+The learning lab template is stored in the following directory:
+
+> https://github.com/CiscoDevNet/devnet-writing-guidelines/tree/master/labs
 
 
-## Contributing
+#### Sample Code template
 
-Note that contributions to these learning modules are for public consumption, so you must ensure you have the rights to provide any contributed content.
+The template for code samples is here:
 
-Write your content in Markdown, and your wording and syntax is reviewed according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
+> https://github.com/CiscoDevNet/devnet-writing-guidelines/tree/master/code-samples
 
-#### Publishing Requirements
+## Code Conventions
 
-To create and publish a new lab, you must:
-- Add a new folder under labs
-- Create a JSON file with the same name as the labs/folder name
-- Create markdown files named 1.md, 2.md, and so on, and refer to those files in the JSON file
-- Ensure the JSON file contains page titles in addition to file references
-- Send a pull request, then get the files commited and merged to `master` by a DevNet reviewer
+See the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki) for the style guide on DevNet coding conventions.
 
-A DevNet reviewer then creates a release on the repository with the latest `master` and publishes through the admin interface.
 
-#### Editors
+## Author Scripts
 
-You can write Markdown in a plain text editor but there are many desktop and web-based options which allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for a few reasons:
-- Lightweight environment for coding (or writing Markdown)
-- Available on MAC, Linux or Windows
-- Github Client integration
-- Great Markdown preview features native in the editor
-- Intuitive operation and structure
+The `scripts` folder contains python scripts that might be useful when authoring. You do not have to use these scripts to author labs. They are just helpful tools that other authors have created.
 
-You can validate a JSON file by using the [online formatter and validator](https://jsonformatter.curiousconcept.com).
+For example, the `create_new_lab.py` script creates a directory structure and copies the template used to create a new lab. You could do the same thing manually.
 
-## Getting Involved
 
-* If you'd like to make contributions, refer to [contributing.md](contributing.md).
-* If you're interested in creating a Cisco DevNet Learning Lab, please contact a DevNet administrator for guidance.
+## Recommended Tools
 
+Check the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/Tools-to-Write-Learning-Labs) section for recommended tools.
