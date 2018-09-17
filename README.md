@@ -1,4 +1,6 @@
-## Cisco DevNet Learning Labs: Infinite Toolkit
+## Deactivated: Cisco DevNet Learning Labs: Infinite Toolkit
+
+**These Labs are now deactivated.**
 
 These self-paced interactive tutorials provide instructions for developers to learn that the Infinite Toolkit (ITK) sandbox is a cloud infrastructure allowing a client application to access consistent information about TV channels, Video On Demand (VOD) assets and user settings.
 
